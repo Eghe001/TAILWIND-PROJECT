@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Blog</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- Header Section -->
+  <header class="bg-blue-600 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">My News Blog</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#" class="hover:underline">Home</a></li>
+          <li><a href="#" class="hover:underline">About</a></li>
+          <li><a href="#" class="hover:underline">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Featured Posts Section -->
+  <section class="container mx-auto my-8">
+    <h2 class="text-3xl font-bold mb-4">Featured Posts</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="bg-white p-4 rounded-lg shadow-md">
+        <img src="https://cdn.vanguardngr.com/wp-content/uploads/2021/10/Nasir-El-Rufai.jpg" alt="Nasir-El-Rufai" class="w-full h-48 object-cover rounded-t-lg">
+        <h3 class="text-xl font-semibold mt-4">Post Title 1</h3>
+        <p class="text-gray-700 mt-2"> N432BN PROBE REPORT: EL-RUFAI DRAGS KADUNA ASSEMBLY TO COURT.</p>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow-md">
+        <img src="https://cdn.vanguardngr.com/wp-content/uploads/2024/06/WhatsApp-Image-2024-06-26-at-07.27.38_eb55e9cb.jpg" alt="Post Image" class="w-full h-48 object-cover rounded-t-lg">
+        <h3 class="text-xl font-semibold mt-4">Post Title 2</h3>
+        <p class="text-gray-700 mt-2">ASUU chides FG on delay in payment of withheld salaries.</p>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow-md">
+        <img src="https://cdn.vanguardngr.com/wp-content/uploads/2022/02/KANU-e1679925604901.jpg" alt="vanguardngr" class="w-full h-48 object-cover rounded-t-lg">
+        <h3 class="text-xl font-semibold mt-4">Post Title 3</h3>
+        <p class="text-gray-700 mt-2">Kanu appeals Justice Nyako’s ruling against his objection to court’s jurisdiction.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Category Section -->
+  <section class="container mx-auto my-8">
+    <h2 class="text-3xl font-bold mb-4">Categories</h2>
+    <div class="flex space-x-4">
+      <span class="bg-blue-200 text-blue-800 px-3 py-1 rounded-full">Tech</span>
+      <span class="bg-green-200 text-green-800 px-3 py-1 rounded-full">Lifestyle</span>
+      <span class="bg-red-200 text-red-800 px-3 py-1 rounded-full">Travel</span>
+      <span class="bg-purple-200 text-purple-800 px-3 py-1 rounded-full">Food</span>
+    </div>
+  </section>
+
+  <!-- Recent Posts Section -->
+  <section class="container mx-auto my-8">
+    <h2 class="text-3xl font-bold mb-4">Recent Posts</h2>
+    <ul class="space-y-4">
+      <li>
+        <h3 class="text-xl font-semibold">Recent Post 1</h3>
+        <p class="text-gray-500 text-sm">Published on June 26, 2024</p>
+      </li>
+      <li>
+        <h3 class="text-xl font-semibold">Recent Post 2</h3>
+        <p class="text-gray-500 text-sm">Published on June 26, 2024</p>
+      </li>
+      <li>
+        <h3 class="text-xl font-semibold">Recent Post 3</h3>
+        <p class="text-gray-500 text-sm">Published on June 26, 2024</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Newsletter Subscription Form -->
+  <section class="container mx-auto my-8 bg-black p-8 rounded-lg shadow-md">
+    <h2 class="text-3xl text-red-500 font-bold mb-4">Subscribe to our Newsletter</h2>
+    <form action="#" method="POST">
+      <div class="flex flex-col md:flex-row md:space-x-4">
+        <input type="email" placeholder="Enter your email" class="w-full p-2 mb-4 md:mb-0 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+        <button type="submit" class="w-full md:w-auto bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">Subscribe</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white p-4">
+    <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+      <p>&copy; 2024 My News Blog. All rights reserved.</p>
+      <div class="flex space-x-4 mt-4 md:mt-0">
+        <a href="#" class="hover:underline">Privacy Policy</a>
+        <a href="#" class="hover:underline">Terms of Service</a>
+      </div>
+      <div class="flex space-x-4 mt-4 md:mt-0">
+        <a href="#" class="hover:underline">Facebook</a>
+        <a href="#" class="hover:underline">Twitter</a>
+        <a href="#" class="hover:underline">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
